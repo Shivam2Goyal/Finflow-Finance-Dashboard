@@ -1,16 +1,15 @@
-# 💰 Finflow — Finance Dashboard
+# Finflow — Finance Dashboard
 
 A clean, interactive finance dashboard built with React, Tailwind CSS, Zustand, and Recharts.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 npm install
 npm run dev
-# Open http://localhost:5173
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -22,7 +21,7 @@ npm run dev
 | date-fns | Date formatting |
 | Lucide React | Icons |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -40,7 +39,7 @@ src/
     └── Budget.jsx                # Budgets + goals
 ```
 
-## ✨ Features
+## Features
 
 - **Overview** — Balance, income, expenses, savings rate + 3 charts
 - **Transactions** — Search, filter by category/type, sort, CSV export; Admin can add/edit/delete
@@ -50,7 +49,7 @@ src/
 - **Dark Mode** — Persisted to localStorage
 - **Responsive** — Mobile sidebar with overlay, works on all screen sizes
 
-## 🔐 Role-Based UI
+## Role-Based UI
 
 | Feature | Viewer | Admin |
 |---|---|---|
@@ -61,7 +60,7 @@ src/
 
 Switch roles via the toggle in the top navbar — no login required (frontend simulation).
 
-## 🗂️ State Management
+## State Management
 
 All state in `src/store/useStore.js` using Zustand with `persist` middleware:
 - `transactions[]` — full list, CRUD operations
@@ -74,5 +73,5 @@ All state in `src/store/useStore.js` using Zustand with `persist` middleware:
 ## 📦 Build
 
 ```bash
-npm run build   # Output in /dist
+npm run build
 ```
