@@ -70,7 +70,7 @@ All state in `src/store/useStore.js` using Zustand with `persist` middleware:
 - `darkMode` — boolean
 - Computed selectors: `getFilteredTransactions()`, `getSummary()`, `getCategoryBreakdown()`
 
-## 📦 Build
+## Build
 
 ```bash
 npm run build
